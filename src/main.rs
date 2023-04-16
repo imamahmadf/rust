@@ -6,7 +6,7 @@ fn main() {
         println!("Silakan pilih aksi:");
         println!("1. Parkir Mobil");
         println!("2. Keluarkan Mobil");
-        println!("3. Keluar");
+        println!("3. Keluar ");
 
         let mut pilihan = String::new();
         io::stdin().read_line(&mut pilihan).expect("Gagal membaca input");
